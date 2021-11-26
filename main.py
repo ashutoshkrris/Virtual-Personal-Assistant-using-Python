@@ -143,15 +143,17 @@ if __name__ == '__main__':
 
         elif 'joke' in query:
             speak(f"Hope you like this one sir")
-            speak(get_random_joke())
+            joke = get_random_joke()
+            speak(joke)
             speak("For your convenience, I am printing it on the screen sir.")
-            pprint(get_random_joke())
+            pprint(joke)
 
         elif "advice" in query:
             speak(f"Here's an advice for you, sir")
-            speak(get_random_advice())
+            advice = get_random_advice()
+            speak(advice)
             speak("For your convenience, I am printing it on the screen sir.")
-            pprint(get_random_advice())
+            pprint(advice)
 
         elif "trending movies" in query:
             speak(f"Some of the trending movies are: {get_trending_movies()}")

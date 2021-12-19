@@ -175,3 +175,7 @@ if __name__ == '__main__':
             speak(f"Also, the weather report talks about {weather}")
             speak("For your convenience, I am printing it on the screen sir.")
             print(f"Description: {weather}\nTemperature: {temperature}\nFeels like: {feels_like}")
+            
+        elif 'what day is it' in query:
+			get_day = day_of_week()
+			speak({get_day})

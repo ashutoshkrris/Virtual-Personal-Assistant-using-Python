@@ -1,5 +1,6 @@
 import os
 import subprocess as sp
+from datetime import datetime
 
 paths = {
     'notepad': "C:\\Program Files\\Notepad++\\notepad++.exe",
@@ -26,3 +27,10 @@ def open_camera():
 
 def open_calculator():
     sp.Popen(paths['calculator'])
+   
+    
+def day_of_week():
+	day = datetime.today().weekday()
+	days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+	return "Today is ",days[day]
+	

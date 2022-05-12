@@ -1,8 +1,8 @@
-Read the tutorial series - https://ireadblog.com/series/18/virtual-personal-assistant-using-python
+Read the tutorial series - https://bit.ly/3M7eGJr
 
-freeCodeCamp article: https://www.freecodecamp.org/news/python-project-how-to-build-your-own-jarvis-using-python/
+freeCodeCamp article: https://bit.ly/3N4YU1S
 
-Demo Video: https://vimeo.com/650156113
+Demo Video: https://bit.ly/3L5Q5Ui
 
 Contents of .env file:
 
